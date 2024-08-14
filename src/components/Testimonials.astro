@@ -1,30 +1,31 @@
 ---
+import { date } from "astro/zod";
+
 const testimonials = [
   {
-    profileURL: "gym-femaleinstructor.jpg",
-    author: "Donna Bleaker",
-    age: 31,
+    profileURL: "s32test1.jpg",
+    author: "ZK Trucking LLC",
     quote:
-      "Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services. ",
+      "Another great load for Star 32 INC Trucking. .....................................................Multiple C&M truck beds headed out! ",
   },
   {
-    profileURL: "gym-ropes.jpg",
-    author: "Lauren Cross",
-    age: 28,
+    profileURL: "s32test2.jpg",
+    author: "Dallas The Trailer Guy",
+  
     quote:
-      "Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services. ",
+      "Thank you Star 32 INC Trucking for the quick response on getting a truck to the store to deliver this landscape to my customer in KC!",
   },
   {
-    profileURL: "gym-instructor.jpg",
-    author: "Thomas Xue",
-    age: 44,
+    profileURL: "s32test3.jpg",
+    author: "Madill AnimalShelter",
+    
     quote:
-      "Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services. ",
+      "Thank you Star 32 INC Trucking for the literal 100's of cases of dog treats! The babies LOVE duck jerky and it's very expensive but oh so good!",
   },
 ];
 ---
 <section class="py-12">
-  <h1 class="yellowText text-5xl italic uppercase text-center">Before and After</h1>
+  <h1 class="yellowText text-5xl italic uppercase text-center">Testimonials</h1>
   <div class="grid grid-cols-1 md:grid-cols-3">
     {
       testimonials.map((profile)=>(
